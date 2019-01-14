@@ -162,19 +162,22 @@ img {
 
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .grid-container {
+ p {
+   background-color: #29363d;
+ }
+  /* .grid-container {
     text-align: center;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 2em;
     margin: 13% 2.4% 0% 2.4%
-  }
+  } */
 }
 
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   p {
     position: relative;
     font-size: .71em;
