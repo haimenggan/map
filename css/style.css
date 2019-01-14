@@ -165,14 +165,14 @@ img {
  p {
    background-color: #29363d;
  }
-  /* .grid-container {
+  .grid-container {
     text-align: center;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: 2em;
     margin: 13% 2.4% 0% 2.4%
-  } */
+  }
 }
 
 
