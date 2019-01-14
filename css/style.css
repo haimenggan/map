@@ -159,7 +159,7 @@ img {
 }
 
 /* For IE 11 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 568px) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 576px) {
   .grid-container:after {
     content: "";
     display: table;
@@ -173,7 +173,7 @@ img {
 }
 
 /* For mobile */
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   p {
     position: relative;
     font-size: .71em;
