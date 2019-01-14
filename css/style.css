@@ -27,8 +27,6 @@ img {
   max-width: 100%;
 }
 
-
-
 .content__text {
   overflow: hidden;
   margin-left: auto;
@@ -49,7 +47,7 @@ img {
   margin-top: -13%;
 }
 
-.header__logo{
+.header__logo {
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -58,7 +56,7 @@ img {
   padding-top: 2%;
 }
 
-.header__tagline{
+.header__tagline {
   font-size: 2.7em;
   font-weight: 300;
   letter-spacing: .04em;
@@ -108,13 +106,13 @@ img {
   color: #757576;
 }
 
-.grid__img{
+.grid__img {
   transform: scale(1.5);
   margin-left: auto;
   margin-right: auto;
 }
 
-.footer__background--color{
+.footer__background--color {
   position: relative;
   z-index: 0;
   width: 100%;
@@ -146,7 +144,7 @@ img {
 }
 
 .footer__text p {
-  margin:0;
+  margin: 0;
   overflow: hidden;
   color: #c4c4c4;
   display: block;
@@ -159,23 +157,21 @@ img {
   background-color: #29363d;
 }
 
+/* For IE 11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 568px) {
+  .grid-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 568px){
-
-.grid-container:after {
-  content: "";
-  display: table;
-  clear: both;
+  .grid-item {
+    float: left;
+    width: 30%;
+  }
 }
-.grid-item{
-  float: left;
-  width: 30%;
-}
-}
 
-
-
+/* For mobile */
 @media (max-width: 568px) {
   p {
     position: relative;
@@ -225,7 +221,7 @@ img {
     margin: 0% auto;
   }
 
-  .grid__text{
+  .grid__text {
     font-size: .8em;
     letter-spacing: 0.05em;
     line-height: 1.4em;
