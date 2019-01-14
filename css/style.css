@@ -199,7 +199,7 @@ grid-row: 1;
 }
 .grid-item{
   float: left;
-  width: 33.33%;
+  width: 30%;
   /* padding: 10px; */
   /* height: 300px; */
 }
