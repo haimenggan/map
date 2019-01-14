@@ -27,6 +27,8 @@ img {
   max-width: 100%;
 }
 
+
+
 .content__text {
   overflow: hidden;
   margin-left: auto;
@@ -155,6 +157,18 @@ img {
   position: relative;
   padding: 0 14%;
   background-color: #29363d;
+}
+
+@media all and (-ms-high-contrast:none){
+  .grid-container {
+    text-align: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2em;
+    margin: 13% 2.4% 0% 2.4%
+  }
+
 }
 
 
