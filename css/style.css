@@ -177,9 +177,18 @@ img {
     margin: 13% 2.4% 0% 2.4%
   }
 
-.grid-item{
+.grid-left{
     grid-column: 1;
 }
+
+.grid-middle{
+    grid-column: 1;
+}
+
+.grid-right{
+      grid-column: 1;
+}
+
 }
 
 
