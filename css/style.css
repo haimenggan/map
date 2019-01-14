@@ -171,10 +171,10 @@ img {
     text-align: center;
     position: relative;
     display: grid;
-      -ms-grid-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: auto auto auto;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2em;
-    margin: 13% 2.4% 0% 2.4%
+    margin: 13% 2.4% 0% 2.4%;
   }
 
 .grid-left{
