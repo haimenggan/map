@@ -174,7 +174,8 @@ img {
     grid-gap: 30px;
     margin: 13% 2.4% 0% 2.4%;
     text-align: center;
-    position: relative;
+    /* position: relative; */
+      grid-template-rows: auto;
     /* -ms-grid-rows: 1fr 1fr 1fr;        /* adjusted */
     /* grid-template-rows:  repeat( 3, 1fr ); */
   }
