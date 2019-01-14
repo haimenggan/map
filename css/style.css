@@ -168,6 +168,7 @@ img {
   .grid-container {
     display: -ms-grid;
     /* display: grid; */
+    display: inline-grid
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns:  repeat( 3, 1fr );
     grid-gap: 2em;
