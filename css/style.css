@@ -161,7 +161,7 @@ img {
 
 
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 568px){
  p {
    background-color: #29363d;
  }
