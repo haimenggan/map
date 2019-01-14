@@ -162,9 +162,9 @@ img {
 
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 568px){
- p {
+ /* p {
    background-color: #29363d;
- }
+ } */
 
  .grid-container {
      display: -ms-grid;
