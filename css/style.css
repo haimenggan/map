@@ -175,8 +175,8 @@ img {
     margin: 13% 2.4% 0% 2.4%;
     text-align: center;
     position: relative;
-    -ms-grid-rows: 1fr 1fr 1fr;        /* adjusted */
-    grid-template-rows:  repeat( 3, 1fr );
+    /* -ms-grid-rows: 1fr 1fr 1fr;        /* adjusted */
+    /* grid-template-rows:  repeat( 3, 1fr ); */
   }
 }
 
