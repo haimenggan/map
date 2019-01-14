@@ -165,7 +165,8 @@ img {
  p {
    background-color: #29363d;
  }
-  .grid-container {
+
+.grid-container {
     display: -ms-grid;
     text-align: center;
     position: relative;
