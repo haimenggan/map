@@ -37,7 +37,7 @@ img {
   top: 3vw;
 }
 
-.header__bg-img {
+.header__background-img {
   width: 100%;
   height: auto;
   overflow-y: hidden;
@@ -178,7 +178,7 @@ img {
     font-size: 1.3em;
   }
 
-  .header__bg-img {
+  .header__background-img {
     position: absolute;
     transform: scale(1.13);
     top: -1%;
