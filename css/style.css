@@ -27,7 +27,6 @@ img {
   max-width: 100%;
 }
 
-
 .content__text {
   overflow: hidden;
   margin-left: auto;
@@ -157,7 +156,7 @@ img {
   padding: 0 14%;
   background-color: #29363d;
 }
-}
+
 
 
 @media screen and (max-width: 768px) {
