@@ -171,11 +171,33 @@ img {
     grid-gap: 2em;
     margin: 13% 2.4% 0% 2.4%
   }
+
+  .grid__title {
+    color: #13191c;
+    font-weight: bolder;
+    font-size: 1.8em;
+    letter-spacing: -0.009em;
+    text-align: center;
+    margin: 3.5% auto;
+  }
+
+  .grid__text {
+    font-size: 1.54em;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+    color: #757576;
+  }
+
+  .grid__img{
+    transform: scale(1.5);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   p {
     position: relative;
     font-size: .71em;
