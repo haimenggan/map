@@ -168,8 +168,8 @@ img {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr))!important;
-    grid-gap: 2em!important;;
-    margin: 13% 2.4% 0% 2.4%!important;;
+    grid-gap: 2em!important;
+    margin: 13% 2.4% 0% 2.4%!important;
   }
 
   .grid__title {
