@@ -197,14 +197,12 @@ grid-row: 1;
   display: table;
   clear: both;
 }
-.grid-left,.grid-right,.grid-middle{ {
+.grid-item{ 
   float: left;
   width: 33.33%;
   padding: 10px;
   /* height: 300px; */
 }
-
-
 
 }
 
