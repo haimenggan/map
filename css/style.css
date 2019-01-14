@@ -28,6 +28,7 @@ img {
 }
 
 .content__text {
+  text-align: left;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
