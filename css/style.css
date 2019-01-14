@@ -167,19 +167,16 @@ img {
  }
   .grid-container {
     display: -ms-grid;
-    /* display: grid; */
-    display: inline-grid
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: repeat( 3, 1fr );
-    grid-gap: 30px;
-    margin: 13% 2.4% 0% 2.4%;
     text-align: center;
-    position: absolute;
-      grid-template-rows: auto;
-    /* -ms-grid-rows: 1fr 1fr 1fr;        /* adjusted */
-    /* grid-template-rows:  repeat( 3, 1fr ); */
+    position: relative;
+    display: grid;
+      -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    margin: 13% 2.4% 0% 2.4%
   }
-}
+
+
 
 
 
