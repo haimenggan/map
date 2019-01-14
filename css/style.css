@@ -166,13 +166,16 @@ img {
    background-color: #29363d;
  }
   .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns:  repeat( 3, 1fr );
+    grid-gap: 2em;
+    margin: 13% 2.4% 0% 2.4%;    
     text-align: center;
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 2em;
-    margin: 13% 2.4% 0% 2.4%
   }
+
 }
 
 
