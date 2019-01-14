@@ -173,7 +173,7 @@ img {
     display: grid;
       -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
+    grid-column-gap: 2em;
     margin: 13% 2.4% 0% 2.4%
   }
 
